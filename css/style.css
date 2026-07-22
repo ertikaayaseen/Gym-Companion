@@ -41,3 +41,18 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
 
 /* Utility */
 .contact p{color:var(--muted)}
+
+/* Week1 forms */
+.week-page .day{border:1px solid #f0f0f0;padding:12px;border-radius:10px;margin:12px 0;background:#fff}
+.week-page .day h2{margin-top:0;font-size:18px}
+.day-controls{display:flex;gap:12px;align-items:center;margin-bottom:8px}
+.machine-table{width:100%;border-collapse:collapse;margin-top:8px}
+.machine-table th{font-size:13px;text-align:left;padding:8px;border-bottom:1px solid #eee;color:var(--muted)}
+.machine-table td{padding:6px;border-bottom:1px solid #fafafa}
+.machine-table input{width:100%;padding:6px;border:1px solid #e6e6e6;border-radius:6px}
+.notes, .stretching{width:100%;padding:8px;border:1px solid #e6e6e6;border-radius:6px}
+
+@media(min-width:700px){
+  .machine-table input{padding:8px}
+  .week-page{padding-left:8px;padding-right:8px}
+}

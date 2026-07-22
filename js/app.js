@@ -11,3 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupToggle('menuToggle','mainNav');
   setupToggle('menuToggle2','mainNav2');
 });
+
+// small helper for pages that include dynamic week/day storage (keeps file focused)
+// Week-specific logic lives in-page (week1.html) to avoid coupling.
+

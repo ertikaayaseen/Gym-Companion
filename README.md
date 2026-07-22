@@ -1,15 +1,16 @@
 Gym Companion
 ===============
 
-Version: v0.2
+Version: v0.3
 
-This workspace contains the initial structure for Gym Companion v0.2 — a clean, mobile-first site with a Home page, a Program listing, and placeholders for a 12-week workout program.
+This workspace contains Gym Companion v0.3 — Week 1 has been fully implemented with the agreed schedule, local saving, weight tracking and check-ins. Week pages 2–12 are placeholders.
 
-Structure:
+Structure (notable files):
 - `index.html` — Home
 - `program.html` — 12-Week Program listing
-- `week1.html` ... `week12.html` — placeholders for each week's plan
+- `week1.html` — Fully implemented Week 1 (Mon–Sun) per agreed plan
+- `week2.html` ... `week12.html` — placeholders
 - `css/style.css` — styles
-- `js/app.js` — small UI helpers
+- `js/app.js` — UI helpers
 
-Open `index.html` in a browser to view the site.
+Open `week1.html` in a browser and use the Save buttons to store data locally (saved in `localStorage`).
