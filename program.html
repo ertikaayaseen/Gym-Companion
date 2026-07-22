@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>12-Week Program — Gym Companion</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Gym Companion</a>
+      <button id="menuToggle2" class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav id="mainNav2" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="program.html">12-Week Program</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>12-Week Program</h1>
+    <p class="lead">Select a week to view the plan. These are placeholders you can fill in later.</p>
+
+    <div class="weeks-grid">
+      <!-- 12 placeholders -->
+      <script>
+        for (let i = 1; i <= 12; i++) {
+          document.write(`<a class="week-card" href="week${i}.html">Week ${i}</a>`);
+        }
+      </script>
+    </div>
+  </main>
+
+  <footer class="site-footer container">Gym Companion v0.2</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
