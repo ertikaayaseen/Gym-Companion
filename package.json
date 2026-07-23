@@ -1,0 +1,11 @@
+{
+  "name": "gym-companion",
+  "version": "0.5.2",
+  "description": "Gym Companion static site test harness",
+  "scripts": {
+    "test": "node ./tests/run.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^20.0.0"
+  }
+}
