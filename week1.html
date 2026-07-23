@@ -359,7 +359,7 @@
 
   </main>
 
-  <footer class="site-footer container">Gym Companion v0.3</footer>
+  <footer class="site-footer container">Gym Companion v0.5.1</footer>
 
   <script src="js/app.js"></script>
   <script>
@@ -395,12 +395,13 @@
         const rows = Array.from(section.querySelectorAll('.machine-table tbody tr'));
         rows.forEach((r,i)=>{
           const ex = data.exercises?.[i] || {};
-          r.querySelector('.ex-name').value = ex.name || '';
-          r.querySelector('.ex-sets').value = ex.sets || '';
-          r.querySelector('.ex-reps').value = ex.reps || '';
-          r.querySelector('.ex-weight').value = ex.weight || '';
-          r.querySelector('.ex-photo').value = ex.photo || '';
-          r.querySelector('.ex-video').value = ex.video || '';
+          const nameEl = r.querySelector('.ex-name');
+          if(nameEl) nameEl.value = ex.name || '';
+          const setsEl = r.querySelector('.ex-sets'); if(setsEl) setsEl.value = ex.sets || '';
+          const repsEl = r.querySelector('.ex-reps'); if(repsEl) repsEl.value = ex.reps || '';
+          const weightEl = r.querySelector('.ex-weight'); if(weightEl) weightEl.value = ex.weight || '';
+          const photoEl = r.querySelector('.ex-photo'); if(photoEl) photoEl.value = ex.photo || '';
+          const videoEl = r.querySelector('.ex-video'); if(videoEl) videoEl.value = ex.video || '';
         });
       }
 
