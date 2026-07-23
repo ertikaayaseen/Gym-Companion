@@ -1,7 +1,7 @@
 Gym Companion
 ===============
 
-Version: v0.5
+Version: v0.5.1
 
 This workspace contains Gym Companion v0.5 — Week 1 is fully implemented and finalized. Weeks 2–4 have been added with conservative progressions and the same local saving, weight tracking and check-ins. Weeks 5–12 remain as placeholders.
 
